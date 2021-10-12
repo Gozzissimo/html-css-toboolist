@@ -1,3 +1,4 @@
+/* general */
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +9,9 @@ html{
 }
 body{
     background-color:#F6F8F9;
-    }
+}
+
+/* header */
 header{
     height: 80px;
     padding: 10px;
@@ -22,10 +25,14 @@ header .logo{
 header h1{
     display: inline-block;
 }
+
+/* container */
 section{
     width: 70%;
     background-color: white;
 }
+
+/* task bar */
 .task-add-bar{
     margin: 4% 15% 1px;
     padding: 1% 5%;
@@ -57,20 +64,29 @@ main button{
     color:lightgray;
     border-color: lightgray;
 }
+
+/* task list */
 ul{
     padding-bottom: 20px;
 }
 .list-header{
-    margin-left: 20px;
+    margin: 0 0 5px 20px;
     font-size:1,5em;
     font-weight: bold;
 }
 .task{
     list-style: none;
+    margin-bottom: 10px;
 }
+
+/* labels */
 .label{
     display: inline-block;
     margin-left: 5px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    color: white;
 }
 .editorial{
     background-color: #45ABEA;

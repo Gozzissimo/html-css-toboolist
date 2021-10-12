@@ -22,11 +22,19 @@ header .logo{
 header h1{
     display: inline-block;
 }
-main{
+section{
     width: 70%;
-    margin: 4% 15% 1%;
-    padding: 1% 5%;
     background-color: white;
+}
+.task-add-bar{
+    margin: 4% 15% 1px;
+    padding: 1% 5%;
+    border-radius: 5px 5px 0 0;
+}
+
+.tasks-section{
+    margin: 2px 15% 1%;
+    padding: 1% 5%;
 }
 main button{
     width: auto;
@@ -46,7 +54,3 @@ main button{
     background-color:white;
     color:lightgray;
     border-color: lightgray;
-
-}main hr{
-    color:#F6F8F9;
-}

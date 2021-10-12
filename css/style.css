@@ -56,3 +56,15 @@ main button{
     background-color:white;
     color:lightgray;
     border-color: lightgray;
+}
+ul{
+    padding-bottom: 20px;
+}
+.list-header{
+    margin-left: 20px;
+    font-size:1,5em;
+    font-weight: bold;
+}
+.task{
+    list-style: none;
+}

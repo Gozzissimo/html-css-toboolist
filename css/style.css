@@ -4,5 +4,49 @@
     box-sizing: border-box;
 }
 html{
+    font-family: Arial, Helvetica, sans-serif
+}
+body{
     background-color:#F6F8F9;
+    }
+header{
+    height: 80px;
+    padding: 10px;
+    background-color: white;
+    line-height: 60px;
+}
+header .logo{
+    vertical-align:middle;
+    height: 100%;
+}
+header h1{
+    display: inline-block;
+}
+main{
+    width: 70%;
+    margin: 4% 15% 1%;
+    padding: 1% 5%;
+    background-color: white;
+}
+main button{
+    width: auto;
+    padding: 1% 2%;
+    border-color:unset;
+    border-width: 1px;
+}
+
+.task-add-bar button{
+    border-radius:5px
+}
+#add-task-button{
+    background-color:#45ABEA;
+    color: white;
+}
+#add-section-button{
+    background-color:white;
+    color:lightgray;
+    border-color: lightgray;
+
+}main hr{
+    color:#F6F8F9;
 }
